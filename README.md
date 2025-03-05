@@ -15,9 +15,7 @@
 - Mapear a rede de fibra óptica de um provedor utilizando o mapa do Google
 - Facilita na visualização dos trechos de fibra rompida de forma visual e rapida
 - O sistema busca as informações atraves da coleta de dados do Zabbix
-- Principais Tecnologias utilizadas:
-  - Frontend: Next.js, Typescript e tailwind, Shadcn para estilizações.
-  - Backend: Nest.js, Typescript, ORM Prisma e como banco de dados Postgress.
+- Possibilita ao usuário criar seu próprio mapa através da importação de arquivos .kml
 
 > O sistema consiste na criação de mapas de redes fibra óptica atraves da importação de KML (é um formato de arquivo que permite armazenar e visualizar dados geográficos, como mapas e navegadores 3D). O backend integra as rotas importadas e as informações da rede através do zabbix alterando seu status atual ( Fibra rompida ou Fibra normal ).
 
@@ -33,7 +31,21 @@
 
 - 🛠️ **Gerenciamento dos Mapas**  
 - 📈 **Integração com Zabbix**  
-- 📁 **Importação de Kmls** 
+- 📁 **Importação de Kmls**
+
+## 👨🏻‍💻 Tecnologias utilizadas!
+ #### Frontend
+   - Next.js
+   - Typescript
+   - Tailwind
+   - Shadcn
+ #### Backend
+   - Nest.js
+   - Typescript
+   - ORM Prisma
+   - Postgres
+   - Docker
+
 
 ## 🔒 Acesso e Privacidade  
 
